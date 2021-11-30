@@ -16,7 +16,7 @@ h1 {
   }
 }
 
-/*Media queries*/
+/*Media queries padrão*/
 @media (max-width: 1200px) {
   
 }
@@ -28,4 +28,9 @@ h1 {
 @media (max-width: 600px) {
   
 }
+
+@media (max-width: 480px) {
+  
+}
+
 
