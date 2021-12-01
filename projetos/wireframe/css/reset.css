@@ -25,7 +25,8 @@ button {
 
 .container {
   width: 100%;
-  max-width: 1246px;
+  /* de acordo com a grid do site + 30px do padding */
+  max-width: 1246px; 
   margin: 0 auto;
   padding: 0px 15px;
 }
