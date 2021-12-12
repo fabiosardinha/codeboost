@@ -1,7 +1,5 @@
-body {
-  background-color: black;
-  h1 {
-    color: #FFF;
-    font-size: 3,2rem;
-  }
-}
+@import'reset';
+@import'responsive';
+@import'buttons';
+@import 'variables';
+@import 'home';

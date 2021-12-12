@@ -2,11 +2,21 @@
 	"version": 3,
 	"file": "main.css",
 	"sources": [
-		"../scss/main.scss"
+		"../scss/main.scss",
+		"../scss/_reset.scss",
+		"../scss/_responsive.scss",
+		"../scss/_buttons.scss",
+		"../scss/_variables.scss",
+		"../scss/_home.scss"
 	],
 	"sourcesContent": [
-		"body {\r\n  background-color: black;\r\n  h1 {\r\n    color: #FFF;\r\n  }\r\n}"
+		"@import'reset';\r\n@import'responsive';\r\n@import'buttons';\r\n@import 'variables';\r\n@import 'home';\r\n",
+		"* {\r\n  margin: 0;\r\n  padding: 0;\r\n}",
+		"@media (max-width: 1200px) {\r\n  h1 {\r\n    font-size: 2rem;\r\n  }\r\n}",
+		".btn-primary {\r\n  background-color: red;\r\n}\r\n",
+		"$main-color : black;\r\n$second-color : blue;\r\n",
+		"header {\r\n  width: 100%;\r\n  height: 80px;\r\n  background-color: $main-color;\r\n  color: $second-color;\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,KAAK;CAIxB;;;AALD,AAEE,IAFE,CAEF,EAAE,CAAC;EACD,KAAK,EAAE,IAAI;CACZ"
+	"mappings": ";ACAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;ACHD,MAAM,EAAE,SAAS,EAAE,MAAM;;EACvB,AAAA,EAAE,CAAC;IACD,SAAS,EAAE,IAAI;GAChB;;;;ACHH,AAAA,YAAY,CAAC;EACX,gBAAgB,EAAE,GAAG;CACtB;;;AEFD,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EDHJ,KAAK;ECIjB,KAAK,EDHS,IAAI;CCInB"
 }

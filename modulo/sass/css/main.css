@@ -1,11 +1,27 @@
-/* line 1, D:/codeboost/modulo/sass/scss/main.scss */
-body {
-  background-color: black;
+/* line 1, D:/codeboost/modulo/sass/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* line 3, D:/codeboost/modulo/sass/scss/main.scss */
-body h1 {
-  color: #FFF;
+@media (max-width: 1200px) {
+  /* line 2, D:/codeboost/modulo/sass/scss/_responsive.scss */
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* line 1, D:/codeboost/modulo/sass/scss/_buttons.scss */
+.btn-primary {
+  background-color: red;
+}
+
+/* line 1, D:/codeboost/modulo/sass/scss/_home.scss */
+header {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: blue;
 }
 
 /*# sourceMappingURL=main.css.map */
