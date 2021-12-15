@@ -24,4 +24,75 @@ header {
   color: blue;
 }
 
+/* line 8, D:/codeboost/modulo/sass/scss/_home.scss */
+.s-hero {
+  background-color: black;
+  height: 800px;
+  height: 800px;
+}
+
+/* line 13, D:/codeboost/modulo/sass/scss/_home.scss */
+.s-hero .text h1 {
+  color: blue;
+}
+
+/* line 16, D:/codeboost/modulo/sass/scss/_home.scss */
+.s-hero .text p {
+  color: #FFF;
+}
+
+/* line 20, D:/codeboost/modulo/sass/scss/_home.scss */
+.s-hero .img {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* line 28, D:/codeboost/modulo/sass/scss/_home.scss */
+.s-hero button {
+  margin-top: 50px;
+  background-color: aqua;
+  border: none;
+  padding: 20px;
+  font-size: 32px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* line 37, D:/codeboost/modulo/sass/scss/_home.scss */
+.s-hero button:hover {
+  background-color: #09b3b3;
+}
+
+/* line 45, D:/codeboost/modulo/sass/scss/_home.scss */
+.first-section .btn {
+  width: 350px;
+  height: 350px;
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* line 51, D:/codeboost/modulo/sass/scss/_home.scss */
+.second-section .btn {
+  width: 250px;
+  height: 250px;
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
 /*# sourceMappingURL=main.css.map */
